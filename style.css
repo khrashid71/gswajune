@@ -1,0 +1,38 @@
+/*
+Theme Name: Astragswajune
+Theme URI: https://example.com/astra-child
+Description: Child theme for GSWA using Astra
+Author: Kazi Harunar Rashid
+Author URI: https://example.com
+Template: astra
+Version: 1.0.0
+*/
+
+/* Import parent theme styles is handled in functions.php */
+
+/* ===== Custom Styles for GSWA ===== */
+
+/*
+====================================
+ DO NOT ADD STYLES HERE
+ Use /assets/css/ files instead
+====================================
+*/
+
+/* Minimal global fallback */
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wp-block-image {
+    margin-bottom: 1rem;
+}
+
+
+
+

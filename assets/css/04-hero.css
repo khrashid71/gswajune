@@ -1,0 +1,59 @@
+
+.wp-block-cover {
+    min-height: 600px;
+    overflow: visible;
+}
+
+/*.wp-block-cover.my-hero .wp-block-cover__background {
+    background-color: #000077  !important;
+}*/
+
+.wp-block-cover.my-hero .wp-block-cover__background::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+    
+}
+
+
+.wp-block-cover.my-hero .wp-block-cover__background img {
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+background-position: center;
+
+  
+   border: 6px solid #fff;
+    box-shadow: 0 8px 25px rgba(0,0,0,.25);
+    transform: translate(40px, 60px);
+}
+
+/*=== Overlay image  on hero image===*/
+.wp-block-cover.my-hero::after {
+    content: "";
+    position: absolute;
+
+    right: 0px;
+    bottom: 0px;
+
+    width: 420px;
+    aspect-ratio: 5 / 3;
+
+    background-image: url('../images/tree.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+   border: 2px solid rgb(195, 184, 211);
+ 
+ 
+  border-radius:15px 50px;
+  
+
+    z-index: 10;
+}
+
+
+

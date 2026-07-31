@@ -1,0 +1,54 @@
+.leadership-message {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin: 60px 0;
+}
+
+.leadership-message.leadership-message--reverse {
+    flex-direction: row-reverse;
+}
+
+.leadership-message__image {
+    flex: 0 0 320px;
+    margin: 0;                 /* removes default figure margin */
+}
+
+.leadership-message__image img {
+    display: block;            /* removes tiny gap below image */
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+}
+
+.leadership-message__content {
+    flex: 1;
+    min-width: 0;              /* prevents flex overflow */
+}
+
+.leadership-message__content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.leadership-message__text {
+    margin-top: 20px;
+    line-height: 1.8;          /* excellent for Bengali text */
+    text-align: justify;
+}
+
+.leadership-message__footer {
+    margin-top: 30px;
+}
+
+.leadership-message__name {
+    margin: 0;
+}
+
+.leadership-message__designation {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}

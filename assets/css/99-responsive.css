@@ -1,0 +1,134 @@
+
+
+/*==================================================
+  Hero Section
+==================================================*/
+
+/*==================================================
+  Hero Overlay Width
+==================================================*/
+
+/* Mobile */
+@media (max-width: 767px) {
+    .wp-block-cover.my-hero::after{
+         width: 200px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+   .wp-block-cover.my-hero::after{
+       width:300px;
+    }
+}
+
+/* Small Laptop */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .wp-block-cover.my-hero::after{
+       width:400px;
+    }
+
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+
+    .wp-block-cover.my-hero::after{
+       width:450px;
+    }
+
+}
+
+
+
+/*==================================================
+  Core Principles
+==================================================*/
+@media (max-width: 767px) {
+    .core-principles {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .core-principles {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*==================================================
+  Vision & Mission
+==================================================*/
+
+@media (max-width: 767px) {
+    
+   
+    .vm-grid {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .vm-title {
+      
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+}
+
+/*==================================================
+  Programs
+==================================================*/
+
+
+
+/*==================================================
+  Footer
+==================================================*/
+/* Mobile */
+/*@media (max-width: 767px) {
+    .custom-footer-text {
+        font-size: 10px;
+    }
+}*/
+
+/* Tablet */
+/*@media (min-width: 768px) and (max-width: 991px) {
+    .custom-footer-text {
+        font-size: 15px;
+    }
+}*/
+
+/* Small Laptop */
+/*@media (min-width: 992px) and (max-width: 1199px) {
+    .custom-footer-text {
+        font-size: 16px;
+    }
+}*/
+
+/* Desktop */
+/*@media (min-width: 1200px) {
+    .custom-footer-text {
+        font-size: 16px;
+    }
+}*/
+
+/*==================================================
+ LEADERSHIP MESSAGE
+==================================================*/
+@media (max-width: 768px) {
+
+    .leadership-message, .leadership-message.leadership-message--reverse
+    
+     {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .leadership-message__image {
+        flex: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}
