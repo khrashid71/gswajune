@@ -15,41 +15,6 @@
 ==================================================*/
 
 
-
-/*.gswa-footer-credit{
-
-    text-align:center;
-
-    padding:20px;
-
-    color:#fff;
-
-    font-size:18px;
-
-}
-
-.gswa-footer-credit a{
-
-    color:#0d6efd;
-
-    text-decoration:none;
-
-}
-
-.site-below-footer-wrap {
-    padding: 10px 0;
-}
-
-.site-below-footer-wrap[data-section="section-below-footer-builder"] {
-    min-height: 40px;
-}
-
-.ast-footer-copyright p {
-    margin: 0px;
-    line-height: 1.6;
-}*/
-
-
 /*==================================================
   ACTION HOOK add_action do_action
 ==================================================*/
