@@ -132,3 +132,28 @@
         margin: 0 auto;
     }
 }
+
+/*==================================================
+GSWA Contact
+==================================================*/
+
+@media (max-width: 768px) {
+  .grid-header {
+    display: none;
+  }
+  .grid-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 16px;
+  }
+  .grid-row div::before {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    color: #555;
+  }
+  .col-sl::before { content: "SL No: "; }
+  .col-pos::before { content: "Position: "; }
+  .col-name::before { content: "Name: "; }
+  .col-mob::before { content: "Mobile No: "; }
+}
