@@ -4,6 +4,29 @@
   Hero Section
 ==================================================*/
 
+@media (max-width: 480px) {
+    .hero-content h2 span {
+        display: block;
+        white-space: nowrap;
+    }
+
+    .hero-content h2 br {
+        display: none;
+    }
+}
+
+/* Small phones */
+@media (max-width: 380px) {
+    .hero-content h2 {
+        font-size: 18px;
+        line-height: 1.35;
+    }
+
+    .hero-content {
+        max-width: 90%;
+    }
+}
+
 /*==================================================
   Hero Overlay Width
 ==================================================*/
